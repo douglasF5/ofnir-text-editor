@@ -28,7 +28,7 @@ type EditingButtonProps = {
   actions: EditingActions;
 };
 
-export function EditingButton({ actions }: EditingButtonProps) {
+export function BubbleMenuButton({ actions }: EditingButtonProps) {
   const { label, leadingIcon, trailingIcon, callBack, iconSize, isActive } = actions;
   const iconSizeBubbleMenu = iconSize ?? 5;
   const iconsStyle = `w-${iconSizeBubbleMenu} h-${iconSizeBubbleMenu}`;
